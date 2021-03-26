@@ -8,10 +8,47 @@
     <title>Vite App</title>
   </head>
   <body>
-    <header>
-      <h1>Hello World</h1>
-    </header>
-    <div id="app"></div>
+    <div class="container">
+      <header class="header">
+        <div class="filterSelect">
+          <label for="filter">Find a character:</label>
+          <form class="form" action="">
+            <img
+              class="logoImg"
+              src="./src/imgs/rick-e-morty-quarta-temporada_w.jpg"
+              alt="LogoImg"
+            />
+            <select class="select" name="filter" id="filter">
+              <option class="option" value="Category" selected>
+                --Category--
+              </option>
+              <option class="option" value="All">All</option>
+              <option class="option" value="Alive">Alive</option>
+              <option class="option" value="Dead">Dead</option>
+              <option class="option" value="Unknown">Unknown</option>
+            </select>
+            <input class="input" type="text" placeholder="Character's Name" />
+            <button class="loadButton">Load</button>
+          </form>
+        </div>
+      </header>
+      <main class="main">
+        <div class="cards">
+          <!-- <div class="card">
+            <img
+              class="cardImg"
+              src="https://tvline.com/wp-content/uploads/2020/05/rick-and-morty-recap.jpg?w=620"
+              alt=""
+            />
+            <div class="name">Name</div>
+          </div> -->
+        </div>
+      </main>
+      <footer class="footer">
+        Eduardo Melo &copy; Rick and Morty API Project
+      </footer>
+      <div id="app"></div>
+    </div>
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>
