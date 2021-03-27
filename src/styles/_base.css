@@ -90,6 +90,7 @@ footer {
 }
 .loadButton:hover {
   scale: 1.2;
+  cursor: pointer;
 }
 
 .card {
@@ -135,10 +136,6 @@ p {
   padding-right: 5px;
   padding-left: 5px;
   text-align: center;
-}
-
-.dead {
-  background-color: yellow;
 }
 
 @media only screen and (min-width: 650px) {
