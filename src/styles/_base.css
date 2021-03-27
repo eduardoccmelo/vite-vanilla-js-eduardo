@@ -101,6 +101,7 @@ footer {
   display: grid;
   justify-content: center;
   align-content: flex-start;
+  margin: 5px;
 }
 
 .cardImg {

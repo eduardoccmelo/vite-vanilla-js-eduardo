@@ -18,6 +18,7 @@ function apiFetch(url) {
 
         const card = document.createElement("div");
         card.classList.add("card");
+        card.classList.add("shadow");
         if (character.status === "Alive") {
           card.classList.add("alive");
         } else if (character.status === "Dead") {
