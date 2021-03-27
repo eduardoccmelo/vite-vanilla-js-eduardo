@@ -1,3 +1,41 @@
-:root {
-  /* Define your variable colors here */
+body {
+  background-color: rgb(25, 172, 25);
+}
+
+.header {
+  background-color: black;
+  color: white;
+  border-bottom: green 3px solid;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  border-top: green 3px solid;
+}
+
+.name {
+  color: white;
+}
+
+.alive {
+  background-color: rgb(5, 5, 122);
+}
+
+.dead {
+  background-color: rgb(56, 2, 2);
+}
+
+.unknown {
+  background-color: rgb(180, 13, 13);
+}
+
+.loadButton:hover {
+  background-color: rgb(60, 151, 8);
+  border: darkgreen 2px solid;
+  color: white;
+}
+
+.shadow {
+  box-shadow: 3px 3px 5px #000000;
 }
