@@ -139,6 +139,41 @@ p {
   text-align: center;
 }
 
+@media only screen and (max-width: 420px) {
+  .card {
+    height: 150px;
+    width: 150px;
+    margin: 3px;
+    font-size: 0.8em;
+  }
+  .cardImg {
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 140px;
+    height: 90px;
+    border-radius: 60px 60px 0 0;
+    object-fit: cover;
+  }
+  .logoImg {
+    height: 50px;
+    position: absolute;
+    top: 20px;
+    left: 5px;
+  }
+  .loadButton {
+    height: 40px;
+    width: 40px;
+    top: 28px;
+    right: 15px;
+  }
+  label {
+    font-size: 0.9em;
+    position: absolute;
+    top: 8px;
+  }
+}
+
 @media only screen and (min-width: 650px) {
   .cards {
     display: grid;
@@ -146,23 +181,30 @@ p {
   }
 }
 
-@media only screen and (min-width: 850px) {
+@media only screen and (min-width: 900px) {
   .cards {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 }
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1100px) {
   .cards {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   }
 }
 
-@media only screen and (min-width: 1250px) {
+@media only screen and (min-width: 1300px) {
   .cards {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  .cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   }
 }
